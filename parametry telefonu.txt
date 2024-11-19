@@ -1,0 +1,2 @@
+na wprost 450px maksymalna szerokość ekranu
+na szerokość 900px maksymalna szerokość ekranu

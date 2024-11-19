@@ -1,0 +1,435 @@
+:root {
+    box-sizing: border-box;
+    color:white;
+}
+
+*,::after, ::before {
+    box-sizing:inherit;
+}
+
+body {
+    background-size: cover;
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("https://w0.peakpx.com/wallpaper/815/128/HD-wallpaper-fantasy-landscape-mountains-clouds-sunset-scenic-creatures-fantasy.jpg");
+}
+
+/* START OF MAIN PAGE *****************************************************/
+
+#header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 100px;
+    position: sticky;
+    top:0;
+    z-index:999;
+    overflow: hidden;
+}
+
+#logo img {
+    margin:20px;
+    margin-top:30px;
+    width: 60px;
+}
+
+.menu {
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 5rem;
+}
+
+.menu ul li a {
+    color:white;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color:orange;
+}
+
+.socials a img{
+    width: 60px;
+    margin:20px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.main {
+    display: block;
+    color: black;
+    font-size: 3rem;
+    margin: 3rem;
+    background: rgba(239, 207, 227, 0.3);
+    border: 2px solid rgba(239,207,227,0.3);
+    border-radius:50px;
+}
+
+/* END OF MAIN PAGE ***************************************************/
+/* START OF THE MOVIES ************************************************/
+
+.lotr-title {
+    text-align: center;
+    color:black;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.lotr {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding:1rem;
+}
+
+.lotr-image {
+    flex:0 0 40%;
+    margin-right:1rem;
+    border: 2px solid red;
+}
+
+.lotr-descriptions {
+    color:black;
+    width:40%;
+    text-align: justify;
+    font-size:1.5rem;
+    margin-left:1rem;
+}
+
+.hp-title {
+    text-align: center;
+    color:black;
+    font-size:3rem;
+    margin-bottom: 0;
+}
+
+.hp {
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    padding:1rem;
+}
+
+.hp-description {
+    color:black;
+    width:40%;
+    text-align: justify;
+    font-size:1.5rem;
+    margin-right:1rem;
+}
+
+.hp-image {
+    flex: 0 0 40%;
+    margin-left:1rem;
+    border:2px solid yellow;
+}
+
+/* END OF MOVIES *******************************************************/
+/* START OF THE SERIES *************************************************/
+
+.supernatural-title {
+    text-align: center;
+    color:black;
+    font-size:3rem;
+    margin-bottom:0;
+}
+
+.supernatural {
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    padding:0;
+    overflow: hidden;
+}
+
+.supernatural-image {
+    flex: 0 0 40%;
+    border:2px solid violet;
+    margin-right:1rem;
+}
+
+.supernatural-description {
+    color:black;
+    font-size:1.5rem;
+    width:40%;
+    text-align: justify;
+    margin-left:1rem;
+}
+
+.walking-dead-title {
+    text-align: center;
+    color:black;
+    font-size:3rem;
+    margin-bottom:0;
+}
+
+.walking-dead {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:1rem;
+}
+
+.walking-dead-description {
+    color:black;
+    font-size:1.5rem;
+    width:40%;
+    margin-right:1rem;
+    text-align: justify;
+}
+
+.walking-dead-image {
+    flex: 0 0 40%;
+    border:2px solid green;
+    margin-left:1rem;
+}
+
+.game-of-thrones-title {
+    text-align: center;
+    color:black;
+    font-size:3rem;
+    margin-bottom:0;
+}
+
+.game-of-thrones {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:1rem;
+}
+
+.game-of-thrones-description {
+    color:black;
+    font-size:1.5rem;
+    width:40%;
+    margin-left:1rem;
+    text-align: justify;
+}
+
+.game-of-thrones-image {
+    flex: 0 0 40%;
+    border:2px solid grey;
+    margin-right:1rem;
+}
+
+/* END OF THE SERIES **************************************************/
+/* START OF THE BOOKS *************************************************/
+
+.witcher-title {
+    color:black;
+    font-size:3rem;
+    text-align: center;
+}
+
+.witcher {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:1rem;
+}
+
+.witcher-image {
+    flex: 0 0 40%;
+    border:2px solid white;
+    margin-right:1rem;
+    max-height: 700px;
+}
+
+.witcher-description {
+    color:black;
+    font-size:1.5rem;
+    width:40%;
+    margin-left:1rem;
+    text-align: justify;
+}
+
+.stormlight-archive-title {
+    color:black;
+    font-size:3rem;
+    text-align: center;
+}
+
+.stormlight-archive {
+    display:flex;
+    flex-wrap: wrap;
+    padding:1rem;
+    justify-content: center;
+}
+
+.stormlight-archive-description {
+    color:black;
+    font-size:1.5rem;
+    width:40%;
+    margin-right:1rem;
+    text-align: justify;
+}
+
+.stormlight-archive-image {
+    flex: 0 0 40%;
+    margin-left:1rem;
+    border:2px solid blue;
+}
+
+.mistborn-title {
+    font-size:3rem;
+    color:black;
+    text-align: center;
+}
+
+.mistborn {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:1rem;
+}
+
+.mistborn-image {
+    flex:0 0 40%;
+    margin-right:1rem;
+    border:2px solid grey;
+}
+
+.mistborn-description {
+    font-size:1.5rem;
+    text-align: justify;
+    margin-left:1rem;
+    width:40%;
+    color:black;
+}
+
+.throne-of-glass-title {
+    color:black;
+    font-size:3rem;
+    text-align: center;
+}
+
+.throne-of-glass {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:1rem;
+}
+
+.throne-of-glass-description {
+    color:black;
+    font-size:1.5rem;
+    margin-right:1rem;
+    text-align: justify;
+    width:40%
+}
+
+.throne-of-glass-image {
+    flex:0 0 40%;
+    margin-right:1rem;
+    border:2px solid black;
+}
+
+/************************************** END OF THE BOOKS ***********************************/
+/************************************** START OF THE GAMES *********************************/
+.tess-title {
+    color:black;
+    font-size:3rem;
+    text-align: center;
+}
+
+.tess {
+    display:flex;
+    padding:1rem;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.tess-image {
+    flex:0 0 40%;
+    margin-right:1rem;
+    border:2px solid black;
+}
+
+.tess-description {
+    color:black;
+    font-size:1.5rem;
+    margin-left:1rem;
+    text-align: justify;
+    width:40%;
+}
+
+.witcher-game-title {
+    font-size:3rem;
+    color:black;
+    text-align: center;   
+}
+
+.witcher-game {
+    display:flex;
+    flex-wrap:wrap;
+    padding:1rem;
+    justify-content: center;
+}
+
+.witcher-game-image {
+    flex: 0 0 40%;
+    border:2px solid black;
+    margin-left:1rem;
+}
+
+.witcher-game-description {
+    width:40%;
+    color:black;
+    font-size:1.5rem;
+    text-align: justify;
+    margin-right:1rem;
+}
+
+/*************************************** END OF THE GAMES *******************************************/
+/************************************** START OF THE MEDIA QUERIES **********************************/
+
+@media (min-width: 450px){
+    html {
+        background-color:red;
+    }
+
+    img {
+        width:100%;
+    }
+
+    .description {
+        width:100%;
+    }
+}
+
+@media (min-width: 736px){                           /**********************MINIMUM WIDTH TO FULL IMAGES ON WEBSITES*******************************/
+    html {
+        background-color:green;
+    }
+
+    .description {
+        width:70%;
+    }
+}
+
+@media (min-width:900px){
+    html {
+        background-color: blue;
+    }
+
+    .description {
+        width:70%;
+    }
+}
+
+@media (min-width:1260px){                         /***********************MINIMUM WIDTH TO NOT FLEX WRAP*******************************/
+    html {
+        background-color: grey;
+    }
+
+    .description {
+        width:40%;
+    }
+}
