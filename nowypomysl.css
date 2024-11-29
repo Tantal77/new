@@ -55,7 +55,11 @@ body {
     color:orange;
 }
 
-.socials a img{
+.socials {
+    display:flex;
+}
+
+.socials a img {
     width: 60px;
     margin:20px;
     margin-right: 3px;
@@ -95,7 +99,7 @@ body {
     border: 2px solid red;
 }
 
-.lotr-description {
+.lotr-descriptions {
     color:black;
     width:40%;
     text-align: justify;
@@ -395,6 +399,10 @@ body {
         background-color:red;
     }
 
+    #header {
+        overflow: visible;
+    }
+
     img {
         width:100%;
     }
@@ -402,6 +410,37 @@ body {
     .description {
         width:100%;
     }
+
+    .menu ul li a {
+        font-size: 1rem;
+    }
+
+    .socials {
+        display:flex;
+    }
+
+    .menu-icon {
+        width:100%;
+        position: relative;
+        top:30px;
+        display: inline-block;
+
+    }
+
+    .menu {
+        display: none;
+        position:absolute;
+        background-color: black;
+        top:70px;
+        left:0;
+        min-width: 160px;
+        z-index:1;
+    }
+
+    .dropdown:hover .menu {
+        display:block;
+    }
+
 }
 
 @media (min-width: 736px){                           /**********************MINIMUM WIDTH TO FULL IMAGES ON WEBSITES*******************************/
@@ -412,6 +451,10 @@ body {
     .description {
         width:70%;
     }
+
+    .menu ul li a {
+        font-size: 1.4rem;
+    }
 }
 
 @media (min-width:900px){
@@ -419,8 +462,25 @@ body {
         background-color: blue;
     }
 
+    #header {
+        overflow: hidden;
+    }
+
     .description {
         width:70%;
+    }
+
+    .menu {
+        flex: 0 0 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top:20px;
+    }
+
+    .menu-icon {
+        display:none;
     }
 }
 
