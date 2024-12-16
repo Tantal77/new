@@ -99,7 +99,7 @@ body {
     border: 2px solid red;
 }
 
-.lotr-descriptions {
+.lotr-description {
     color:black;
     width:40%;
     text-align: justify;
@@ -404,11 +404,14 @@ body {
     }
 
     img {
-        width:100%;
+        width:80%;
+        margin:1rem;
     }
 
     .description {
-        width:100%;
+        width:70%;
+        font-size:1rem;
+        margin:1rem;
     }
 
     .menu ul li a {
@@ -420,9 +423,9 @@ body {
     }
 
     .menu-icon {
-        width:100%;
+        width:80%;
         position: relative;
-        top:30px;
+        top:20px;
         display: inline-block;
 
     }
@@ -441,6 +444,10 @@ body {
         display:block;
     }
 
+    .title {
+        font-size:2rem;
+    }
+
 }
 
 @media (min-width: 736px){                           /**********************MINIMUM WIDTH TO FULL IMAGES ON WEBSITES*******************************/
@@ -450,10 +457,19 @@ body {
 
     .description {
         width:70%;
+        font-size: 1.5rem;
+    }
+
+    img {
+        width:100%;
     }
 
     .menu ul li a {
         font-size: 1.4rem;
+    }
+
+    .title {
+        font-size:3rem;
     }
 }
 
@@ -490,6 +506,6 @@ body {
     }
 
     .description {
-        width:40%;
+        width:60%;
     }
 }
